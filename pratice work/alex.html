@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>This is my firs webpage </title>
+<link rel="stylesheet" href="alex.css">
+<style>
+    p::first-line{
+        font-size: 40px;
+        font-family: times;
+        color: #800080;
+    }
+    p::first-letter{
+        font-size: 80px;
+        font-family: Georgia, 'Times New Roman', Times, serifs;
+    }
+    p::before{
+        content: "✔✔✔";
+        content: "🤷‍♂️❤❤❤";       
+     }
+     p::after{
+        content: "💋💋💋👏👏😜🎶";
+     }
+     
+     p{
+        text-shadow: 2px 0px 2px yellow;
+        
+     }
+     p:hover{
+        box-shadow: 5px 5px 5px tomato;
+     }
+     #cloum{
+      border: 3px solid; 
+      width: 650px;
+      height: 250px; 
+      text-align: center;
+      font-size: 202px;
+      background: red;
+      transform:translateX(50px);
+      transform:translateY(50px);
+      animation: mySilde;
+      animation-duration: 6s;
+
+     }
+     @keyframes mySilde{
+        from{margin-left: 100%;}
+        to{}
+        
+     }
+     a:link{
+       color: red;
+       font-size: 50px;
+       font-family: times;
+     }
+     a:visited{
+      color: grey;
+     }
+     p:hover{
+      color: tomato;
+     }
+     a:active{
+      color: yellow;
+     }
+     button:hover{
+      background-color: lightgrey;
+     }
+     button:active{
+      background-color: red;
+     }
+     li:nth-child(2n+1){
+      background-color: yellow;
+      list-style: none;
+
+     }
+     ul{
+      list-style: none;
+      font-family:  Times;
+      font-size: 40px;
+      text-align: center;
+      text-transform: uppercase;
+      color: tomato;
+      display: inline-block;
+     }
+     .alexander ul{
+      border: 3px dotted;
+      display: inline-flex;
+      text-align: center;
+      padding: 20px;
+      justify-content: space-between;
+     }
+</style>
+<link rel="stylesheet" href="alexander.css">
+
+
+</head>
+<body>
+<table>
+<tr>
+
+<th>county of orgin</th>
+
+<th>county of orgin</th>
+
+<th>county of orgin</th>
+
+<th>county of orgin</th>
+
+<th>county of orgin</th>
+
+</tr>
+<tr>
+<td>contact me</td>
+<td>contact me</td>
+<td>contact me</td>
+<td>contact me</td>
+<td>contact me</td>
+</tr>
+</table>
+<div id="cloum">HELLO</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div><a href="https://www.google.com">Google</a></div>
+<bottom>Click Me</bottom>
+<div class="alexander">
+<ul>
+   <li>html #1</li>
+   <li>html #2</li>
+   <li>html #3</li>
+   <li>html #4</li>
+   <li>html #5</li>
+   <li>css #6</li>
+   <li>css #7</li>
+   <li>css #8</li>
+   <li>css #9</li>
+   <li>css #10</li>
+</ul>
+</div>
+<div class="login-box">
+   <h2>Login</h2>
+<form action="">
+   <div class="user-box">
+   <input type="text" name="username" placeholder="name">
+</div>
+<div class="user-box">
+   <input type="password" name="password" placeholder="password">
+</div>
+<a href="#" onclick="myfunc()">Submit</a>
+</form>
+</div>
+<nav>
+   <a class="logo" href="#">LOGO</a>
+   <ul class="navlink">
+<li><a href=""></a>Home</li>
+<li>  <a href=""></a>About</li>
+<li><a href=""></a>Contact</li>
+<li> <a href="">Services</a></li>
+   </ul>
+   <a class="btn" href="#">DOWNLOAD</a>
+   <div class="bx bx-menu" id="menu-icon"></div>
+</nav>
+<section class="hero">
+<div class="main-text">
+<p>A Responsive NavBar</p>
+<p>Using HTML, CSS AND JAVASCRIPT.</p>
+</div>
+</section>
+<!--JAVASCRIPT Link-->
+<script src="./srript.js"></script>
+</body>
+<html>

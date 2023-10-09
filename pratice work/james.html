@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        box-sizing: border-box;
+        background-color: #0076ff;
+    }
+    html, body{
+        margin: 0px;
+        padding: 0px;
+    } thi
+    .form-container{
+        margin: 20px;
+        padding: 15px;
+        background-color: rgb(109, 207, 4);
+        color: tomato;
+        box-shadow: 0 5px 10px 0 rgba(0, 255, 115, 0.3), rgba(0, 0, 0, 0.20); 
+    }
+    .input-cnt:last-child{
+        margin-bottom: 0px;
+    }
+    .input-cnt > i {
+       min-width: 40px;
+       padding: 10px;
+       text-align: center;
+       background: rgb(224, 13, 13);
+       border-top-left-radius: 30px;
+       border-bottom-left-radius: 20px;
+       color: #0077ffce;
+    }
+    .input-cnt:hover > i {
+        background: #0076ff;
+        color: tomato;
+    }
+    .input-cnt > input[type="text"], .input.cnt > input[type="password"]{
+        outline: none;
+        border: none;
+        padding: 10px;
+        border: 2px sold dottdd #ff6347;
+        border-top-right-radius: 20px;
+        width: 100%;
+    }
+    .input-cnt > input[type="submit"] {
+        border: none;
+        border-radius: 20px;
+        outline: none;
+        margin: 0 auto;
+        font-size: 105%;
+        padding: 8px;
+        color: #0076ff;
+        background: lightgreen;
+        transition-duration: 5s;
+    }
+    input-cnt > input [type="submit"]:hover{
+        color: white;
+        background: #0076ff;
+    }
+</style>
+</head>
+<body>
+    <p><b>Note!</b>This demo requires internet connection .</p>
+    <p><b>This is only a sign up and login form design it has no ral functionality.</b>Functionalities like thse cannot be created without the help of scriptin and server-side landguages.</p>
+    <h2 style="text-align: center">Sign Up</h2>
+    <div class="form-container">
+       <form action="#">
+        <div class="input-cnt">
+            <i class="material-icons">person</i>
+            <input type="text" placeholder="Name" name="name"/>
+        </div>
+      <div class="input-cnt">
+        <i class="material-icons">face</i>
+        <input type="text" placeholder="Password" name="password"/>
+      </div>
+    <div class="input-cnt">
+        <i class="material-icons" >email</i>
+        <input type="text" placeholder="Email" name="email"/>
+    </div>
+   <div class="input-cnt">
+    <i class="material-icons">lock</i>
+    <input type="password" placeholder="password" name="password"/>
+   </div>   
+  <div class="input-cnt">
+    <input type="submit" value="Sign Up">
+  </div>
+</form>
+</div>
+<h2 style="text-align: center">Login</h2>
+<div class="form-container">
+    <form action="#">
+        <div class="input-cnt">
+            <i class="material-icons">person</i>
+            <input type="text" placeholder="Email or Username" name="email"/>
+        </div>
+        <div class="input-cnt">
+            <i class="material-icons">lock</i>
+            <input type="password" placeholder="password" name="password"/>
+        </div>
+        <div class="input-cnt">
+            <input type="submit" value="Login"/s>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

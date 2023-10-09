@@ -1,0 +1,95 @@
+﻿*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+}
+body{
+   background-color: black;
+   color: white;
+}
+nv{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   padding: 15px 3%;
+}
+.logo{
+   color: skyblue;
+   font-size: 24px;
+   font-weight: 600px;
+   margin: auto;
+}
+.navlink{
+   display: flex;
+}
+.navlink a{
+padding: 0 5px;
+margin: 0 10px;
+color: #fff;
+font-weight: 600;
+font-size: 16px;
+}
+.navlink a:hover{
+   color: gray;
+}
+.btn{
+   padding: 5px 15px;
+   background: lightskyblue;
+   border-radius: 15px;
+   color: white;
+   border: 2px solid lightskyblue;
+}
+.btn:hover{
+   border: 2px solid lightskyblue;
+   background-color: transparent;
+   color: lightskyblue;
+}
+section{
+   padding: 0 5%;
+}
+.hero{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   height: 100vh;
+   /*width:100%*/
+   background-image: linear-gradient(hsl(red), hsl(#fff)), url(james.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.main-text p:nth-child(1)
+.main-text p:nth-child(2){
+   font-size: 15px;
+   margin-top: 10px;
+}
+#menu-icon{
+   color: #fff;
+   font-size: 35px;
+
+   z-index: 5001;
+   cursor: pointer;
+   display: none;
+}
+@media all and (max-width: 400px){
+   .main-text p:nth-child(1){
+      color:red;}
+   }
+   .navlink{
+      position: absolute;
+      top: -800px;
+      left: 0;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      background-color: #00ced0;
+      text-align: center;
+   }
+

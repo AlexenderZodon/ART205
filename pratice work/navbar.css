@@ -1,0 +1,64 @@
+.sidenav a{
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 20px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    border-radius: 80px;
+    font-family: times;
+}
+.sidenav a:hover{
+    left: 0;
+}
+#about{
+    top: 100px;
+    background-color: red;
+
+}
+#contact{
+    top: 190px;
+    background-color: blueviolet;
+    text-align: center;
+    justify-content: center;
+}
+
+#services{
+    top: 300px;
+    background-color: rgb(10, 97, 112);
+    text-align: center;
+    justify-content: center;
+}
+
+#projects{
+    top: 390px;
+    background-color: rgb(226, 43, 122);
+    text-align: center;
+    justify-content: center;
+}
+
+#home{
+    top: 490px;
+    background-color: rgb(226, 116, 43);
+    text-align: center;
+    justify-content: center;
+}
+.headerside ul{
+    text-decoration: none;
+list-style-type: none;
+font-family: courier;
+overflow: hidden;
+}
+.headerside {
+    border: 20px;
+    background-color: brown;
+    overflow: hidden;
+}
+.headerside a{
+display: inline-block;
+justify-content: space-between;
+display: flex;
+}
